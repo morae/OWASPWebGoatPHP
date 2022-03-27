@@ -3,8 +3,7 @@ if ($this->Result)
 {
     ?>
 * Permission
-<b><?php
-    echo $_POST['Title']?></b>
+<b></b>
 with ID
 <b><?php
     echo $this->Result?></b>
