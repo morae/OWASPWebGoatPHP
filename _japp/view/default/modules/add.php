@@ -31,8 +31,8 @@ class <span id="class"></span> extends BaseControllerClass
 <div id="sudo" style="font-size:small;">
 Supply your system username and password if webserver does not have access writing files:
 <br/>
-Username:<input type="text" name="save_username" value="123"/>
-Password: <input type='password' name="save_password" value="123"/>
+Username:<input type="text" name="save_username" value="<?php echo $_POST['save_username'];?>"/>
+Password: <input type='password' name="save_password" value="<?php echo $_POST['save_password'];?>"/>
 </div>
 <input type='submit' value='Save File' />
 </form>

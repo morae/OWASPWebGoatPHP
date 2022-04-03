@@ -3,7 +3,8 @@ if ($this->Result)
 {
     ?>
 * Role
-<b></b>
+<b><?php
+    echo $_POST['Title']?></b>
 with ID
 <b><?php
     echo $this->Result?></b>
