@@ -71,8 +71,7 @@ echo $this->Count?></div>
 <input type='submit' value='Unassign' /></form>
 
 <div style='text-align: center; margin-top: 2px; font-size: small;'>
-<form action="?<?php
-echo $_GET['sort']?>&">Show <input type='text' name='limit' size='3'
+<form action="">Show <input type='text' name='limit' size='3'
 	value="<?php
 echo $_GET['limit'] ? $_GET['limit'] : "20"?>" /> items starting from <input
 	type='text' size='4' name='offset'
